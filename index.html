@@ -1,17 +1,7 @@
 <!DOCTYPE html>
 <html>
   <?php
-    $path="C:\Users\Saran Bal\Documents\GitHub\devAdhiraj.github.io\newtest.txt";
-    $file="database";
-
-    //read file contents
-    $content="
-        <h2>$file</h2>
-            <code>
-                <pre>".htmlspecialchars(file_get_contents("$path/$file"))."</pre>
-            </code>";
-
-    //display
+    $content = file_get_contents("C:\Users\Saran Bal\Documents\GitHub\devAdhiraj.github.io\newtest.txt);
     echo $content;
 ?>
 <body>
