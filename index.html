@@ -1,11 +1,13 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <?php
-    $content = file_get_contents("C:\Users\Saran Bal\Documents\GitHub\devAdhiraj.github.io\newtest.txt);
-    echo $content;
-?>
 <body>
-<h1>Hello World</h1>
-<p> very nicee</p>
+
+<?php
+$myfile = fopen("C:\Users\Saran Bal\Documents\GitHub\devAdhiraj.github.io\newtest.txt, "r") or die("Unable to open file!");
+echo fread($myfile,filesize("C:\Users\Saran Bal\Documents\GitHub\devAdhiraj.github.io\newtest.txt));
+fclose($myfile);
+?>
+
 </body>
 </html>
