@@ -1,0 +1,375 @@
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+/* u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} */
+body {
+    height: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+}
+div {
+    height: 100%;
+
+}
+
+
+
+
+header {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+
+    text-align: left;
+    font-size: 8vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-style: italic;
+    font-weight: normal;
+    background-image: url("https://b50ym1n8ryw31pmkr4671ui1c64-wpengine.netdna-ssl.com/wp-content/blogs.dir/11/files/2015/01/PeregrineFalcon_Houghton.jpg");
+    background-position: center;
+    width: 100%;
+    margin: 10px auto;
+    height: 43vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 10px;
+
+    justify-items: left;
+    align-items: center;
+    text-shadow: -1px 2px black, 2px 3px 8px black, 3px 4px 10px rgb(78, 78, 78);
+}
+
+.collapse {
+  background-color: beige;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 0;
+  outline: none;
+  cursor: pointer;
+  padding: 0 18px;
+  width: 98%;
+  margin: 0 1%;
+  font-size: 5vh;
+  height: 11%;
+  position: relative;
+  bottom: 0;
+  left: 1%;
+  display: block;
+  /* display: grid; */
+  /* grid-template-columns: 5% 15% 1fr 5%;
+     grid-template-rows: 100%; */
+  /* grid-column-gap: 20px; */
+  /* grid-template-areas: 'pos img sub sym'; */
+  justify-content: center;
+}
+
+footer {
+    margin:100px;
+}
+
+.subtitle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    height: auto;
+    /* float: right; */
+    /* grid-area: sub; */
+}
+
+.collapse :first-child {
+/* float: left; */
+left: 3%;
+}
+
+
+.propic{
+    width: 13%;
+    height: 94%;
+    object-fit: cover;
+    top: 7%;
+    position: absolute;
+    left: 8%;
+
+}
+img {
+    width: 50%;
+    height: inherit;
+    /* align-self: center; */
+    object-fit: cover;
+    /* grid-area: img; */
+}
+
+.pic {
+    background-image: url("https://i.pinimg.com/originals/de/dd/43/dedd43632c138ca5346dca614f986d8b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: beige;
+    grid-row: span 2;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-style: italic;
+    color:rgb(253, 253, 253);
+    border-radius: 15px;
+    height: 92vh;
+    text-shadow: 0 -1px black, 1px 1px black, 0 -1px 4px black, 2px 2px 9px black ;
+    box-shadow: 0px 0px 8px rgb(94, 6, 0), 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+}
+.active, .collapse:hover {
+  background-color: rgb(200, 195, 161);
+}
+
+.description {
+    background-color: beige;
+    border-radius: 15px;
+    padding: 10px 15px;
+    height: auto;
+    box-shadow: 2px 2px 6px black,  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+.description li{
+    margin:10px;
+}
+
+
+
+.content {
+  padding: 0 18px;
+  margin: 0 10px;
+  max-height: 0;
+  height: auto;
+  border: none;
+  outline: none;
+  margin-bottom: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:100%;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: auto;
+  grid-gap: 5px;
+  max-width: 98%;
+  background-color: rgb(245, 111, 111);
+
+}
+
+#symb {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 7vh;
+    margin-right: 10px;
+    font-weight: bold;
+    position: absolute;
+    right: 5%;
+    height: auto;
+    bottom: 20%;
+    }
+
+.conservation{
+    color: green;
+    font-style: italic;
+
+}
+
+a {
+    display: block;
+    background-color: rgb(173, 38, 38);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    margin-right: 15px;
+    font-style: italic;
+
+}
+
+a:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color:rgb(202, 53, 53);
+    }
+
+#golden {
+    background-image: url("https://www.eagles.org/wp-content/uploads/2016/01/eagle-on-rock-boulder-colorado-800.jpg");
+    color: black;
+    background-position: right;
+    text-shadow: 2px 2px 7px rgb(102, 102, 102);
+}
+
+#steppe{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/45/Steppe_Eagle_Portrait.jpg");
+
+}
+
+
+#gyr{
+    background-image: url("https://i.pinimg.com/originals/9f/01/ce/9f01ce51665bc407b2912c183141e74d.jpg");
+
+    }
+
+#endangered{
+    color: rgb(255, 136, 0);
+}
+
+#cr{
+    color: red;
+}
+
+#hawk{
+    background-image: url("https://s3.thingpic.com/images/p7/2zzn1CZh6Jh8NCKZERT2QT5B.jpeg");
+    background-size: contain;
+    background-color: #5989BA;
+}
+
+#swift{
+    background-image: url("https://cdn.download.ams.birds.cornell.edu/api/v1/asset/44951021/1800");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(170, 209, 249);
+}
+
+#last {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#tail{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/44/White-throated_needletail_Hunting_over_Wolotschajewka_Perwaja_%28cropped%29.jpg");    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #B7DBF1;
+}
+
+#hobby {
+    background-image: url("https://cdn.download.ams.birds.cornell.edu/api/v1/asset/45745601/1200");
+}
+
+#bird {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Male_Frigate_bird.jpg/220px-Male_Frigate_bird.jpg");
+}
+
+#goose {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Spur-winged_Geese_%28Plectropterus_gambensis_niger%29_male.jpg/1200px-Spur-winged_Geese_%28Plectropterus_gambensis_niger%29_male.jpg");
+    background-size: contain;
+    background-color: #B49276;
+}
+
+
+@media only screen and (max-aspect-ratio: 237/200) {
+    h1 {
+    font-size: 5vw;
+    }
+
+
+     img {
+        width: 12vh;
+        max-width: 100%;
+
+    }
+}
+
+@media only screen and (max-device-aspect-ratio: 41/61) {
+
+    .propic{
+        left: 13%;
+        width: 18%;
+    }
+
+    .subtitle{
+        left: 33%;
+        right: 10%;
+    }
+
+    #symb {
+        right: 3%;
+    }
+}
+
+
+@media only screen and (max-aspect-ratio: 432/382) {
+
+   .collapse{
+       height: 8%;
+   }
+    .content {
+
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr;
+        grid-template-areas: 'des'
+                             'pic';
+        height: auto;
+    }
+
+    .description {
+        grid-area: des;
+        display: block;
+        font-size: 90%;
+        height: auto;
+
+    }
+
+    .pic {
+        grid-area: pic;
+        display: block;
+        height: 92vw;
+    }
+
+    #gyr {
+        text-shadow: 1px 1px 3px black;
+    }
+}
+
+@media only screen and (max-aspect-ratio: 7/5){
+
+h1 {
+    font-size: 8vw;
+}
+
+.propic {
+    width: 15%;
+}
+
+.collapse{
+    font-size: 3.5vw;
+}
+#symb {
+    font-size: 5vw;
+}
+
+}
+
+@media only screen and (max-aspect-ratio: 5/7){
+
+.collapse{
+    font-size: 4.5vw;
+}
+#symb {
+    font-size: 6vw;
+}
+
+}
