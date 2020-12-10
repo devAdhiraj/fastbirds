@@ -1,12 +1,296 @@
 <!DOCTYPE html>
 <html>
-<body>
 
-<?php
-$myfile = fopen("C:\Users\Saran Bal\Documents\GitHub\devAdhiraj.github.io\newtest.txt, "r") or die("Unable to open file!");
-echo fread($myfile,filesize("C:\Users\Saran Bal\Documents\GitHub\devAdhiraj.github.io\newtest.txt));
-fclose($myfile);
-?>
-<p>L</p>
-</body>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>10 Fastest Birds</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+	<header>
+		<h1>Top 10 Fastest Birds<br> in the World</h1>
+    </header>
+
+        <button type="button" class="collapse">
+        <div class="subtitle">1.</div>
+
+        <div class = "propic">
+        <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Peregrine_falcon_%28Australia%29.JPG/220px-Peregrine_falcon_%28Australia%29.JPG">
+        </div>
+
+        <div class="subtitle">
+        Peregrine Falcon - 390 km/h
+        </div>
+
+        <div id="symb">+</div>
+   </button><div class="content">
+            <div class="pic">An image of the Peregrine Falcon</div>
+            <ul class="description">
+                <li><strong>Features</strong> - Birds of Prey, Blue-grey back, 74-120 cm wingspan, can weigh upto 1.5 Kg.</li>
+                <li><strong>Diet</strong> - Usually eat other birds like pigeons, ducks, shorebirds, etc.</li>
+                <li><strong>Predators</strong> - larger birds of prey like golden eagle, gyrfalcon, and grey-horned owls.</li>
+                <li><strong>Habitat</strong> - Can be found on all continents except Antarctica, they prefer wide-open spaces and thrive near coasts.</li>
+                <li><strong>Conservation Status</strong> - <strong class="conservation">Least Concern</strong></li>
+                <a href="https://www.nwf.org/Educational-Resources/Wildlife-Guide/Birds/Peregrine-Falcon" target="./blank" title="Peregrine Falcon | National Wildlife Federation">Click Here to Learn More About the Peregrine Falcon</a>
+        </ul>
+
+    </div>
+
+    <button type="button" class="collapse" >
+        <div class="subtitle">2.</div>
+
+        <div class = "propic">
+        <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/close-up-of-golden-eagle-head-looking-up-ndp.jpg">
+        </div>
+
+        <div class="subtitle">
+            Golden Eagle - 320 km/h
+        </div>
+
+        <div id="symb">+</div>
+
+   </button>
+
+    <div class="content">
+            <div class="pic" id="golden">An image of the Golden Eagle</div>
+            <ul class="description">
+                <li><strong>Features</strong> - Birds of prey, dark brown, with lighter golden-brown plumage on their napes, 180-230 cm wingspan, can weigh upto 7 kg.</li>
+                <li><strong>Diet</strong> - Rabbits, marmots, squirrels, birds, fish, reptiles, etc. Have even been known to attack full grown deer.</li>
+                <li><strong>Predators</strong> - Adult eagles have no natural predators. Eagle chicks however, are preyed upon by wolverines and grizzly bears.</li>
+                <li><strong>Habitat</strong> - Mostly found in western North America but can also be found in Europe, Asia, and Northern Africa.</li>
+                <li><strong>Conservation Status</strong> - <strong class="conservation">Least Concern</strong></li>
+                <a href="https://www.allaboutbirds.org/guide/Golden_Eagle/id" target="./blank" title="Golden Eagle Identification | All About Birds">Click Here to Learn More About the Golden Eagle</a>
+        </ul>
+
+
+    </div>
+
+
+    <button type="button" class="collapse" >
+        <div class="subtitle">3.</div>
+        <div class = "propic">
+        <img src="https://live.staticflickr.com/4212/35655321742_6bc8abf70e_b.jpg">
+        </div>
+
+        <div class="subtitle">
+            Steppe Eagle - 300 km/h
+        </div>
+
+        <div id="symb">+</div>
+
+   </button>
+
+    <div class="content">
+            <div class="pic" id="steppe">An image of the Steppe Eagle</div>
+            <ul class="description">
+                <li><strong>Features</strong> - Birds of prey, brown with blackish flight feathers and tail, 165-215 cm wingspan, can weigh upto 3.5 kg.</li>
+                <li><strong>Diet</strong> - Usually eats fresh carrion of all kinds but can also hunt rodents, hare, pattridges, etc.</li>
+                <li><strong>Predators</strong> - No natural predators.</li>
+                <li><strong>Habitat</strong> - Found in the Middle East, Central Asia, and Africa. Prefers open dry habitats like deserts, semi-deserts, steppes or savannah.</li>
+                <li><strong>Conservation Status</strong> - <strong class="conservation" id="endangered">Endangered</strong></li>
+                <a href="https://ebird.org/species/steeag1" target="./blank" title="Steppe Eagle - eBird">Click Here to Learn More About the Steppe Eagle</a>
+        </ul>
+
+    </div>
+
+    <button type="button" class="collapse" >
+        <div class="subtitle">4.</div>
+
+        <div class = "propic">
+        <img src="https://www.britishbirdofpreycentre.co.uk/media/1117/gyrfalcon.jpg">
+        </div>
+
+        <div class="subtitle">
+            Gyrfalcon - 209 km/h
+        </div>
+
+        <div id="symb">+</div>
+
+   </button>
+
+    <div class="content">
+            <div class="pic" id="gyr">An image of the Gyrfalcon</div>
+            <ul class="description">
+                <li><strong>Features</strong> - Largest true falcon in the world, have a variety of plumage colors ranginng from dappled white to almost pure black, 110-130 cm wingspan, can weigh upto 1.3 kg.</li>
+                <li><strong>Diet</strong> - Mainly eat other birds, usually prefer ptarmigan and grouse but also hunt seabirds and waterfowl, as well as land mammals such as ground squirrels, lemmings, voles, hares, rabbits, and marmots.</li>
+                <li><strong>Predators</strong> - No natural predators.</li>
+                <li><strong>Habitat</strong> - Found in North America, Arctic Tundra and EuroSiberian Region.</li>
+                <li><strong>Conservation Status</strong> - <strong class="conservation">Least Concern</strong></li>
+                <a href="https://www.allaboutbirds.org/guide/Gyrfalcon/id" target="./blank" title="Gyrfalcon | All About Birds">Click Here to Learn More About the Gyrfalcon</a>
+        </ul>
+
+    </div>
+
+    <button type="button" class="collapse" >
+        <div class="subtitle">5.</div>
+
+        <div class = "propic">
+        <img src="https://i.pinimg.com/originals/fe/06/6f/fe066fc10186cc4d3726c454639a41fd.jpg">
+        </div>
+
+        <div class="subtitle">
+            Red-Tailed Hawk - 190 km/h
+        </div>
+
+        <div id="symb">+</div>
+
+   </button>
+
+    <div class="content">
+            <div class="pic" id="hawk">An image of the Red-Tailed Hawk</div>
+            <ul class="description">
+                <li><strong>Features</strong> - Birds of prey, rich brown above and pale underside with a distinguishable reddish tail, 114-133 cm wingspan, can weigh upto 1.5 kg.</li>
+                <li><strong>Diet</strong> - Usually eats mammals such as voles, rats, rabbits, and ground squirrels, also eats many birds (up to size of pheasant) and reptiles, especially snakes. Sometimes eats bats, frogs, toads, insects, various other creatures; may feed on carrion.</li>
+                <li><strong>Predators</strong> - No natural predators. However, Great-horned owls and crows prey on their eggs and nestlings.</li>
+                <li><strong>Habitat</strong> - Found in North America and West Indies. They usually prefer open spaces like fields but have adapted to be able to live in cities as well.</li>
+                <li><strong>Conservation Status</strong> - <strong class="conservation">Least Concern</strong></li>
+                <a href="https://www.allaboutbirds.org/guide/Red-tailed_Hawk/id" target="./blank" title="Red-tailed Hawk | All About Birds">Click Here to Learn More About the Gyrfalcon</a>
+        </ul>
+
+    </div>
+
+
+
+    <button type="button" class="collapse" >
+        <div class="subtitle">6.</div>
+        <div class = "propic">
+            <img src="needletail1.jpg">
+        </div>
+
+        <div class="subtitle">
+            White-Throated Needle Tail - 170 km/h
+        </div>
+
+        <div id="symb">+</div>
+
+   </button>
+
+    <div class="content">
+            <div class="pic" id="tail">An image of the White-Throated Needle Tail</div>
+            <ul class="description">
+                <li><strong>Features</strong> - Large Swifts, hold record of fastest birds in level flight, greyish-brown except for white throat and a white patch extending from base of their wings to the flanks,  43-48 cm wingpan, can weigh upto 140 g.</li>
+                <li><strong>Diet</strong> - Small flying insects like beetles, moths, flies and bees.</li>
+                <li><strong>Predators</strong> - Falcons, Hobbies, Kestrels and few species of Owls</li>
+                <li><strong>Habitat</strong> - Migratory bird, breeding in Central Asia and southern Siberia, and wintering south in the Indian Subcontinent, Southeast Asia and Australia.</li>
+                <li><strong>Conservation Status</strong> - <strong class="conservation">Least Concern</strong></li>
+                <a href="https://ebird.org/species/whtnee" target="./blank" title="White-throated Needle tail | eBird">Click Here to Learn More About the White-throated Needle Tail</a>
+        </ul>
+
+    </div>
+
+        <button type="button" class="collapse" >
+        <div class="subtitle">7.</div>
+        <div class = "propic">
+        <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Kobuz_%28Falco_subbuteo%29.jpg/200px-Kobuz_%28Falco_subbuteo%29.jpg">
+        </div>
+
+        <div class="subtitle">
+            Eurasian Hobby - 159 km/h
+        </div>
+
+        <div id="symb">+</div>
+
+   </button>
+
+    <div class="content">
+            <div class="pic" id="hobby">An image of the Eurasian Hobby</div>
+            <ul class="description">
+                <li><strong>Features</strong> - Small falcon with dark slate-gray upperparts and white underparts with heavy, dark gray streaks, 74-84 cm wingspan, can weigh upto 340 g.</li>
+                <li><strong>Diet</strong> - Mainly eat flying insects, which are usually eaten in flight, as well as small birds, particularly swallows, martins and swifts.</li>
+                <li><strong>Predators</strong> - Falcons, Hobbies, Kestrels and few species of Owls</li>
+                <li><strong>Habitat</strong> - Found in Europe, Asia and Africa, prefers relatively open areas with some trees, such as open woodland, forest or river edges, wooded savannah, cultivation or scrub with clumps of trees, scattered trees or copses, or fields with hedgerow.</li>
+                <li><strong>Conservation Status</strong> - <strong class="conservation">Least Concern</strong></li>
+                <a href="https://ebird.org/species/eurhob" target="./blank" title="Eurasian Hobby | eBird">Click Here to Learn More About the Eurasian Hobby</a>
+        </ul>
+
+    </div>
+
+
+
+    <button type="button" class="collapse" >
+        <div class="subtitle">8.</div>
+        <div class = "propic">
+        <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ7pdXnMxT4rNXEZfETgy32prTmgeVJIuahZA&usqp=CAU">
+        </div>
+
+        <div class="subtitle">
+            Frigate Bird - 153 km/h
+        </div>
+
+        <div id="symb">+</div>
+
+   </button>
+
+    <div class="content">
+            <div class="pic" id="bird">An image of the Frigate Bird</div>
+            <ul class="description">
+                <li><strong>Features</strong> - Sea bird, predominantly black plumage, long, deeply forked tails and long hooked bills, males have inflatable red-coloured throat pouches called gular pouches, which they inflate to attract females during the mating season, 2.17-2.44 m wingspan, can weigh upto 1.6 kg.</li>
+                <li><strong>Diet</strong> - Mainly eat flying fish, tuna, herring, and squid, can also eat plankton, crabs, jellyfish and almost any fish or carcass near the surface.</li>
+                <li><strong>Predators</strong> - No natural predators.</li>
+                <li><strong>Habitat</strong> - found over tropical oceans.</li>
+                <li><strong>Conservation Status</strong> - <strong class="conservation" id="cr">Critically Endangered</strong></li>
+                <a href="https://en.wikipedia.org/wiki/Frigatebird" target="./blank" title="Frigate Bird - Wikipedia">Click Here to Learn More About the Frigate Bird</a>
+        </ul>
+
+    </div>
+
+    <button type="button" class="collapse" >
+        <div class="subtitle">9.</div>
+        <div class = "propic">
+        <img  src="https://focusingonwildlife.com/news/wp-content/gallery/spur-winged-goose-plectropterus-gambensis/spur-winged-goose-plectropterus-gambensis-1-copy_0.jpg">
+        </div>
+
+        <div class="subtitle">
+            Spur-Winged Goose - 142 km/h
+        </div>
+
+        <div id="symb">+</div>
+
+   </button>
+
+    <div class="content">
+            <div class="pic" id="goose">An image of the Spur-Winged Goose</div>
+            <ul class="description">
+                <li><strong>Features</strong> - large bird, mainly black with a white face and large white wing patches, pinkish red long legs, 150-200 cm wingspan, can weigh upto 3.9 kg.</li>
+                <li><strong>Diet</strong> - Mainly eat plants like grasses, sedges, agricultural grains, aquatic plants etc. Sometimes also eats small fish or insects.</li>
+                <li><strong>Predators</strong> - No natural predators. This bird is often poisonous due to its diet of blister beetles.</li>
+                <li><strong>Habitat</strong> -  Mostly found in Africa in open grasslands with lakes, seasonal pools, rivers, swamps and river deltas.</li>
+                <li><strong>Conservation Status</strong> - <strong class="conservation">Least Concern</strong></li>
+                <a href="https://en.wikipedia.org/wiki/Spur-winged_goose" target="./blank" title="Spur-Winged Goose - Wikipedia">Click Here to Learn More About the Spur-Winged Goose</a>
+        </ul>
+
+    </div>
+
+    <button type="button" class="collapse" id="last">
+        <div class="subtitle">10.</div>
+        <div class = "propic">
+        <img src="https://i.pinimg.com/originals/91/a9/d6/91a9d6315c8e1a97ea4809c826c9dc83.jpg">
+        </div>
+
+        <div class="subtitle">
+            Common Swift - 112 km/h
+        </div>
+
+        <div id="symb">+</div>
+
+   </button>
+
+    <div class="content">
+            <div class="pic" id="swift">An image of the Common Swift</div>
+            <ul class="description">
+                <li><strong>Features</strong> - A medium-sized bird, holds the record of longest uninterrupted flight, entirely blackish-brown except a white spot on their chin, 16-17 cm wingpan, can weigh upto 50 g.</li>
+                <li><strong>Diet</strong> - Only eat insects that they catch while flying like moths, carpet and larder beetles.</li>
+                <li><strong>Predators</strong> - No natural predators.</li>
+                <li><strong>Habitat</strong> - Found on all continents except Antarctica. They usually fly most of the time ans as a result, are always on the move.</li>
+                <li><strong>Conservation Status</strong> - <strong class="conservation">Least Concern</strong></li>
+                <a href="https://animaldiversity.org/accounts/Apus_apus/" target="./blank" title="Common Swift | Animal Diversity Web">Click Here to Learn More About the Common Swift</a>
+        </ul>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+
 </html>
